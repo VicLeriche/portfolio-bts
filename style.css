@@ -184,6 +184,9 @@ header.sticky{
   width: 100%;
   border-radius: 8px;
 }
+.veil {
+    margin-top: 50px;
+}
 .about-text h2{
     font-size: var(--h2-font);
     line-height: 1;
@@ -520,8 +523,11 @@ header.sticky{
     /*======== Facts Section EnD =========*/
     /*<-------------------------------------------------------->*/
     /*============= Skills section START ======= */
+    .sub-para {
+        margin-top: 30px;
+    }
+    
     #experience{
-        padding: 70px 30px;
         text-align: center;
     } 
     #experience .experience-row{
@@ -548,8 +554,8 @@ header.sticky{
         background-color: white;
         border-radius: 15px;
     }
-    #experience .experience-row .experience-box .experience-outter-line .exprience-inner-line{
+    #experience .experience-row .experience-box .experience-outter-line .experience-inner-line {
         height: 10px;
-        background-color: var(--themecolor);
+        background-color: var(--main-color);
         border-radius: 20px;
     }
